@@ -49,7 +49,7 @@ const HomeData = ({ weatherData }) => {
           variant="h6"
           gutterBottom
         >
-          Country/City: {weatherData?.name ?? "n/A"}
+          Name: {weatherData?.name ?? "n/A"}
         </Typography>
       </CardContent>
     );
